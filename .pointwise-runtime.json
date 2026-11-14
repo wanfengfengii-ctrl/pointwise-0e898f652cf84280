@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-m", "py_compile", "osm.py", "verify.py", "demo/roads_demo.py", "tests/pbf_encode.py", "tests/test_osm.py"]
+  ],
+  "verify": ["python3", "verify.py"],
+  "demo": ["python3", "demo/roads_demo.py"]
+}
